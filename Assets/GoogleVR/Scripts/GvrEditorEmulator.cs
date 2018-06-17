@@ -142,10 +142,6 @@ public class GvrEditorEmulator : MonoBehaviour {
 
   private void UpdateHeadPositionAndRotation() {
     HeadRotation = Quaternion.Euler(mouseY, mouseX, mouseZ);
-    if (keepStraight.about)
-    {
-        HeadRotation = Quaternion.Euler(0, 0, 0);
-    }
     HeadPosition = HeadRotation * NECK_OFFSET - NECK_OFFSET.y * Vector3.up;
   }
 

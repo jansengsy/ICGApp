@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICGApp", "ICGApp.csproj", "{F686A15F-5121-D382-CB83-882DA171C306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICGApp.Editor", "ICGApp.Editor.csproj", "{858172FC-2254-DC36-49B2-EB2F15252DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F686A15F-5121-D382-CB83-882DA171C306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F686A15F-5121-D382-CB83-882DA171C306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F686A15F-5121-D382-CB83-882DA171C306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F686A15F-5121-D382-CB83-882DA171C306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858172FC-2254-DC36-49B2-EB2F15252DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858172FC-2254-DC36-49B2-EB2F15252DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858172FC-2254-DC36-49B2-EB2F15252DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858172FC-2254-DC36-49B2-EB2F15252DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
